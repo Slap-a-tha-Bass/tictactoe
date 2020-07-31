@@ -1,17 +1,25 @@
 #board {
     padding-top: 3em;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
+
+/* all 9 cells */
 .row > div {
     height: 100px;
     width: 100px;
     float: left;
     cursor: pointer;
+    font-size: 75px;
+    
+    
 }
 .row {
     clear: both;
     margin: 0 auto;
     width: 302px;
+    
 }
 .top {
     border-bottom: 1px solid black;
